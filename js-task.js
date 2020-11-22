@@ -5,7 +5,7 @@ const taskPush = (job) => tasks.push(job);
 console.log(title);
 tasks.forEach((task, index) => console.log(index, task));
 let job = prompt('タスクを入力して下さい。');
-while(job) {
+while (job) {
   taskPush(job);
   tasks.forEach((task, index) => console.log(index, task));
   alert('新しいタスクを入力しました。');
